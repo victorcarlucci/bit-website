@@ -3,7 +3,7 @@
 ---
 En esta página les mostraré mas sobre mi vida, mis procesos y objetivos. 
 
-*Hola a quien le interese*
+*Hola, a quien le interese*
 
 ---
 ## Autor
