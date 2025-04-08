@@ -54,17 +54,6 @@ width: 25%;
 
 .nav-menu {
 
-    /*text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
-    text-transform:uppercase;
-    border-radius: 8px;
-    color: #0B2545;
-    background: linear-gradient(#fff, #EEF4ED, #8DA9C4);
-    padding: 10px 20px ;
-    font-weight: bold;*/
-
     display: flex;
     justify-content: flex-end;
     gap: 20px;
@@ -141,6 +130,92 @@ width: 25%;
 .img-dy img{
 
     border-radius: 40px 0 40px 0 ;
+}
+
+.img-contacto {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .img-contacto img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario-contacto {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .formulario-contacto label {
+    font-weight: bold;
+    color: #0B2545;
+}
+  
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: vertical;
+    font-family: inherit;
+}
+  
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: vertical;
+    font-family: inherit;
+  }
+  
+  .formulario-contacto button {
+    background-color: #0B2545;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.formulario-contacto button:hover {
+    background-color: #133B5C;
+}
+
+.text-1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
 }
 /*Second Section*/
 

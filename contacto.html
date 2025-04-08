@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/CARLUCCI-removebg-preview.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Carlucci | Contacto</title>
-   
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
 
     <header id="top">
-
-<h1>CONTÁCTAME</h1>
-
+        <div class="titulo-principal">
+            <h1>CARLUCCI</h1>
+        </div>
     </header>
 
+    <nav class="nav-menu">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </nav>
 
-<p class="text-1"> Para colaboraciones, sugerencias, quejas y/o reclamos ingresa la siguiente información: </p>
- <!--Creación de formularios-->
+    <main>
+        <section class="contact-section">
+            <div class="subtitulos-h2">
+                <h2>CONTÁCTAME</h2>
+            </div>
 
- <form>
-    <label for="Nombre">Nombre</label>
+            <p class="text-1">Para colaboraciones, sugerencias, quejas y/o reclamos ingresa la siguiente información:</p>
 
- <!--Agregar acción de dar click en nombre y el cursor se ponga en el cuadro de texto-->   
+            <form class="formulario-contacto">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" placeholder="Tu nombre completo" required>
 
-    <input type="text" id="Nombre">
-    <label for="Correo">Correo</label>
-    <input type="text" id="Correo">
-    <label for="Mensaje">Mensaje</label>
+                <label for="Correo">Correo</label>
+                <input type="email" id="Correo" placeholder="tucorreo@ejemplo.com" required>
 
-  <!--Colocar un mensaje para el suscriptor, en este caso, el mensaje que yo como dueño de la pagina quiero que lea-->  
-    <textarea id="Mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+                <label for="Mensaje">Mensaje</label>
+                <textarea id="Mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
 
-  <!--Colocar el botón para enviar-->  
+                <button type="submit">Enviar</button>
+            </form>
 
-    <button type="submit">Enviar</button>
+            <br>
 
-</form>
+            <figure>
+                <img src="./assets/castillo roma.jpg" alt="Carlucci-en-castillo-roma" style="width: 100%; max-width: 600px; border-radius: 12px;">
+                <figcaption>Carlucci in Castello di Sant'Angelo</figcaption>
+            </figure>
+        </section>
+    </main>
 
-<br>
-
-<img src="./assets/castillo roma.jpg" alt="Carlucci-en-castillo-roma">
-
-
+    <footer>
+        <div class="footer-class">
+            <p>&copy; All rights reserved - Carlucci´s</p>
+        </div>
+    </footer>
 
 </body>
 </html>
