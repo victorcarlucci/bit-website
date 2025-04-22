@@ -1,102 +1,101 @@
 /* TAGS */
 *{
-    box-sizing: border-box;
+  padding: 0%;
+  margin: 0;  
+  box-sizing: border-box;
     
 }
 
-header{
-
-    background: linear-gradient(#0B2545, #8DA9C4, #EEF4ED, #fff);
-}
-
-html,body {
-    height: 100%;
-    margin: 0;
+body {
+    
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #fff, #EEF4ED, #8DA9C4); 
+          
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;  
+    margin-top: 25px;
+
+}
+
+.header .banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
     
 }
 
-.box{ 
+.header .banner .titulo-principal {
 
-    display: flex;
-}
-
-main{
-
-    width: 75%;
-
-}
-
-aside {
-
-width: 25%;
-
-}
-
-
-/*Classes*/
-
-.titulo-principal {
-
-    display: flex;
-    flex-direction:column ;
+    font-size: 2rem;
+    color: #ffff;
     background-color: #134074;
-    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
     padding: 13px 30px;
-    margin: 2% 39% 0% 39%;
-    border-radius: 0px 40px 0px 40px; 
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
+    margin: 2% 39% 2% 39%;
+    border-radius: 0px 40px 0px 40px;
+
 }
 
-.nav-menu {
+.header .nav-menu {
 
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    background: linear-gradient(90deg, #fff, #EEF4ED, #8DA9C4);
+    justify-content: center;
+    width: 100%;
     padding: 15px 30px;
-    border-radius: 12px;
+    border-radius: 50px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    
+
+
 }
 
-.nav-menu a {
+.header .nav-menu a {
 
-    text-decoration: none;
-    background-color: #134074;
-    color: white;
-    padding: 10px 18px;
-    border-radius: 6px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease, transform 0.2s ease; 
+  text-decoration: none;
+  background-color: #134074;
+  color: white;
+  padding: 10px 18px;
+  margin: 15px 30px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
 }
 
 .nav-menu a:hover {
 
-  background-color: #133B5C;
-  transform: scale(1.05);
+    background-color: #133B5C;
+    transform: scale(1.05);
 
 }
 
 /*fist section*/
 
-.f-section{
-   
-    background-image: linear-gradient(#fff,#8DA9C4, #EEF4ED);
-    border-radius: 0 20px 0 20px;
+.box {
+
+   display: flex;
+   width: 80%;
 
 }
+
 
 .f-section figure{  
 
     margin: auto;
     text-align: center;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+   
 }
 
 .f-section img {
@@ -105,7 +104,58 @@ width: 25%;
     padding: 15px;
     width: 800px;
     height: auto;
- 
+}
+
+
+.subtitulos-h2{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform:uppercase ;
+    background: linear-gradient(#13315C, #8DA9C4);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    color: white;
+    padding: 5px 5px;
+}
+
+.parrafos{
+
+   text-align: justify;
+   font-family: 'Segoe UI', sans-serif;
+   background-color: #EEF4ED ;
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+   padding: 5px 2px 5px;
+   margin:auto;
+   
+}
+
+.subtitulos-h3 {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform:uppercase ;
+    background: linear-gradient(#13315C, #8DA9C4);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    color: white;
+    padding: 5px 5px;
+    font-size: large;
+}
+
+.Column1 {
+
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 10px inset rgba(194, 196, 189, 0.467);
+    margin: 3%;
+
+}
+
+.mensajeEmotivo {
+
+    text-align: center;
+    font-size: x-large;
 }
 
 .mp3-dy{
@@ -123,13 +173,15 @@ width: 25%;
     display: flex;
     justify-content: center;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
-    background: linear-gradient(90deg, #fff, #EEF4ED, #8DA9C4)
+    background: linear-gradient(90deg, #fff, #EEF4ED, #8DA9C4);
+    margin: 20px 0px 20px 0px;
 
 }
 
 .img-dy img{
 
     border-radius: 40px 0 40px 0 ;
+    
 }
 
 .img-contacto {
@@ -211,53 +263,24 @@ width: 25%;
     font-size: 18px;
     margin-bottom: 20px;
     color: #333;
+    margin: 10px 2px 10px 10px;
 }
 
 .contact-section {
     padding: 20px;
     text-align: center;
+ 
 }
-/*Second Section*/
 
-.subtitulos-h2{
+.icons-rrss{
 
     display: flex;
     justify-content: center;
-    font-family: 'Segoe UI', sans-serif;
-    text-transform:uppercase ;
-    background: linear-gradient(#13315C, #8DA9C4);
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
-    color: white;
-}
-
-.parrafos{
-
-   text-align: justify;
-   font-family: 'Segoe UI', sans-serif;
-   background-color: #EEF4ED ;
-   box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
-   padding: 5px;
-   margin: auto;
-   
+    margin: auto;
+    width: 200px
 
 }
 
-.Column1 {
-
-    column-count: 3;
-    column-gap: 20px;
-    column-rule: 10px inset rgba(194, 196, 189, 0.467);
-    margin: 3%;
-
-}
-
-.mensajeEmotivo {
-
-    text-align: center;
-    font-size: x-large;
-}
-
-/* Trird section*/
 
 .table-recomendation {
 
@@ -289,28 +312,39 @@ width: 25%;
     
 }
 
-/*Aside*/
-
-/*RRSS*/
-
-.icons-rrss{
-
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 50%
-
-}
-
 /*Footer*/
    
 .footer-class{
 
    display: flex;
    justify-content: center;
-   background-color: #8DA9C4;
-   font-size: 1.5em;
+   font-size: 1rem;
+   margin: 20px 15px;
 
-}
+} 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
