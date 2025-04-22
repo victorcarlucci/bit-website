@@ -323,6 +323,29 @@ body {
 
 } 
 
+@media screen and (min-width: 576px) {
+
+    .box  {
+        display:flex ;
+        flex-direction: column;
+
+    }
+    .f-section {
+        width: 100%;
+        margin: 25px 0px;
+    }
+    .s-section {
+        width: 100%;
+        margin: 25px 0px;
+    }
+    .parrafos {
+        width: 100%;
+        margin: 25px 0px;
+}
+}
+
+
+
 
 
 
